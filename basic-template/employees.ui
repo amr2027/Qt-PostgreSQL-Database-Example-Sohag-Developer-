@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Employees</class>
+ <widget class="QWidget" name="Employees">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Employees</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="EmployeesGB">
+     <property name="title">
+      <string>Employees</string>
+     </property>
+     <layout class="QGridLayout" name="EmployeesGL">   <item row="0" column="0">
+    <widget class="QLabel" name="employee_idL">
+     <property name="text">
+      <string>Employee id</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="employee_id"/>
+   </item>      
+   <item row="1" column="0">
+    <widget class="QLabel" name="employee_nameL">
+     <property name="text">
+      <string>Employee name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="employee_name"/>
+   </item>      
+   <item row="2" column="0">
+    <widget class="QLabel" name="genderL">
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="gender"/>
+   </item>      
+   <item row="3" column="0">
+    <widget class="QLabel" name="birth_dateL">
+     <property name="text">
+      <string>Birth date</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="birth_date"/>
+   </item>           </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
